@@ -1,0 +1,36 @@
+.apps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 220px;
+
+    &--textbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 140px;
+
+        hr {
+            width: 55px;
+            border-top: 2px solid #000;
+        }
+
+        h3 {
+            color: #000;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 56px;
+            padding-right: 100px;
+        }
+
+        p {
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+
+        a ion-icon {
+            padding-left: 6px;
+            font-size: 18px;
+            --ionicon-stroke-width: 46px;
+        }
+    }
+}

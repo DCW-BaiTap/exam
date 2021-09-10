@@ -1,0 +1,59 @@
+.services {
+    background-image: url(../images/sv-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    a {
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+    &--title {
+        font-size: 36px;
+        font-weight: 700;
+        padding-bottom: 40px;
+        text-align: center;
+        padding-top: 190px;
+    }
+
+    &--span {
+        padding-bottom: 80px;
+        padding-right: 80px;
+        padding-left: 80px;
+        text-align: center;
+    }
+
+    &--list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+
+        &_item {
+            width: 340px;
+            min-height: 355px;
+            padding-right: 40px;
+            padding-left: 40px;
+            padding-bottom: 45px;
+            box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+            background: #FFFFFF;
+            border-radius: 20px;
+
+            div {
+                min-height:190px;
+                padding-top: 55px;
+                padding-bottom: 33px;
+                // img {
+                // }
+            }
+
+            h3 {
+                font-size: 24px;
+                font-weight: 700;
+                padding-bottom: 5px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+}

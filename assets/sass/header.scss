@@ -1,0 +1,42 @@
+.header {
+    &--nav {
+        display: flex;
+        justify-content: space-between;
+        // height: 30px;
+        padding-top: 55px;
+        padding-bottom: 55px;
+
+        &_logo {
+            font-size: 24px;
+            font-weight: 700;
+
+            a {
+                color: $primary-color;
+            }
+        }
+
+        &_links ul {
+            display: flex;
+            gap: 40px;
+
+            li a {
+                color: #1F1534;
+                font-weight: 500;
+                color: rgb(107, 102, 102);
+            }
+
+            .nav-active {
+                font-weight: 700;
+                color: #000;
+            }
+        }
+    }
+
+    &--banner {
+        &_left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}

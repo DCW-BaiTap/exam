@@ -1,0 +1,47 @@
+.footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: #fff;
+    margin-top: 200px;
+    position: relative;
+    img {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+    &--post {
+        display: grid;
+        grid-template-columns: 4fr 2fr 2fr 2fr;
+        padding-top: 125px;
+        padding-bottom: 125px;
+
+        &_itemm {
+            p {
+                padding-left: 60px;
+                cursor: pointer;
+            }
+
+            p:first-child {
+                font-size: 20px;
+                font-weight: 700;
+                padding-bottom: 25px;
+            }
+        }
+
+        &_itemb {
+            padding-right: 57px;
+
+            h3 {
+                font-size: 24px;
+                font-weight: 700;
+                padding-bottom: 35px;
+                cursor: pointer;
+
+            }
+
+            p:nth-child(3) {
+                margin-top: 45px;
+                font-size: 16px;
+            }
+        }
+    }
+}

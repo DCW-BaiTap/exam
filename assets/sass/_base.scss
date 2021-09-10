@@ -1,0 +1,39 @@
+.container {
+    max-width: 1120px;
+}
+
+body {
+    font-family: $primary-font;
+    font-size: 18px;
+    font-weight: 300;
+    color: #7D7987;
+}
+
+.btn-custom {
+    display: block;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    background-color: $primary-color;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    line-height: 56px;
+}
+
+.btn-custom-out {
+    display: block;
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid $primary-color;
+    font-weight: 700;
+    color: $primary-color;
+    text-align: center;
+    line-height: 56px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+}
