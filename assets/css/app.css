@@ -115,6 +115,10 @@ h1 {
     justify-content: center;
 }
 
+.header--banner_left h1 {
+    padding-right: 30px;
+}
+
 .services {
     background-image: url(../images/sv-bg.png);
     background-repeat: no-repeat;
